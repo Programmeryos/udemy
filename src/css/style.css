@@ -196,3 +196,55 @@ h2.title{
     z-index: -1;
     left: -240px;
 }
+
+/*-----------------section finish----------------*/
+.finish{
+    min-height: 447px;
+    background:url(../img/bg/finish_bg.png);
+    padding: 86px 0 79px 0;
+}
+.finish .finish_header{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+.finish_divider{
+    display: block;
+    width:217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.finish .finish_wrapper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+.finish .finish_wrapper .finish_item{
+    width: 204px;
+}
+.finish .finish_wrapper .finish_item .finish_round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    background: #B4E2FF;
+    border-radius: 50%;
+}
+.finish .finish_wrapper .finish_item .finish_descr{
+    margin-top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #EFEFEF;
+}
